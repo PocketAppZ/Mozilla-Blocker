@@ -7,14 +7,14 @@
 !              This blocklist is specifically for Adguard due to Adguard having systemwide blocking capabilities on various platforms like Mobile and desktop. 
 !              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
 !
-! Host version of Mozilla Blocker is available which can be used systemwide on various platforms - https://github.com/gitfilts/pbfilters/blob/main/MozillaBlockerHost.txt
+! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
 !
-! Homepage: https://github.com/gitfilts/pbfilters
-! Source: https://raw.githubusercontent.com/gitfilts/pbfilters/refs/heads/main/MozillaBlockerForAdguard.txt
-! License: https://github.com/gitfilts/pbfilters/blob/main/LICENSE
+! Homepage: https://github.com/gitfilts/Mozilla-Blocker
+! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerForAdguard.txt
+! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 07 October 2024
-! Version: 6.8
+! Version: 7
 ! Syntax: AdGuard
 ! Number of entries: 70
 !
