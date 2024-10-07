@@ -1,0 +1,121 @@
+! Title: Mozilla Blocker Adblock Dns Blocklist(Need Testing)
+! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
+!              Mozilla accounts are blocked but mozilla download cdn and archive is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
+!              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
+!              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
+!              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac. 
+!              Using this blocklist in an adblocker inside mozilla firefox browser won't prevent mozilla itself from collecting data from and running experiments on its users.
+!
+! (Recommended) Adguard/Adguard Home Version of Mozilla Blcoker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerForAdguard.txt 
+! Host version of Mozilla Blocker - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerHost.txt
+!
+! Homepage: https://github.com/gitfilts/Mozilla-Blocker
+! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/AdblockDnsBlocklist.txt
+! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
+! Expires: 1 day
+! Last modified: 08 October 2024
+! Version: 0.1
+! Syntax: Adblock
+! Number of entries: 78
+!
+!
+!!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
+!
+!!! Mozilla Accounts
+||accounts.firefox.com^
+||accounts-static.cdn.mozilla.net^
+!
+!!! Mozilla Addons
+@@||addons.mozilla.org^
+@@||addons.thunderbird.net^
+||services.addons.mozilla.org^
+||services.addons.thunderbird.net^
+!
+!!! Mozilla Downloads servers/cdn
+@@||cdn.mozilla.net^
+@@||archive.mozilla.org^
+!
+!!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
+!Blocked!@@||live.thunderbird.net^
+!Blocked!@@||autoconfig.thunderbird.net^
+!
+!!! Mozilla Support and blogs
+!Blocked!@@||support.mozilla.org^
+!
+!!! Third party dns used in other apps
+!Not-Blocked!@@||mozilla.cloudflare-dns.com^
+!
+!!!!!! Definite Rules to block known Mozilla tracking attempts with "" tag for Adguard
+||anonymco.com^
+||aus5.mozilla.org^
+||contile.services.mozilla.com^
+||contile-images.services.mozilla.com^
+||classify-client.services.mozilla.com^
+||contile-images.services.mozilla.com^
+||crash-reports.mozilla.com^
+||crash-reports-xpsp2.mozilla.com^
+||crash-stats.allizom.org^
+||crash-stacks.mozilla.com^
+||crash-stats.mozilla.com^
+||crash-stats.mozilla.org^
+||data.mozilla.com^
+||dataops.mozgcp.net^
+||detectportal.firefox.com^
+||download-stats.mozilla.org^
+||firefox-android-home-recommendations.getpocket.com^
+||fls.merino.services.mozilla.com^
+||incoming.telemetry.mozilla.org^
+||live.mozillamessaging.com^
+||location.services.mozilla.com^
+||metric.mozilla-pontoon-staging.herokuapp.com^
+||mozamo.wpengine.com^
+||mozilla.ai^
+||mozilla.auth0.com^
+||mozilla.dorando.at^
+||mozillamessaging.com^
+||mozillaupdates.com^
+||mozillamaintenanceservice.duckdns.org^
+||mozsocial.cliqz.com^
+||mware.socorro.stage.webapp.sjc1.mozilla.com^
+||normandy.cdn.mozilla.net^
+||normandy.services.mozilla.com^
+||normandy-cdn.services.mozilla.com^
+||normandy-cloudfront.cdn.mozilla.net^
+||normandy-devtools.services.mozilla.com^
+||push.services.mozilla.com^
+||settings.services.mozilla.com^
+||shavar.services.mozilla.com^
+||snippets.allizom.org^
+||snippets.cdn.mozilla.net^
+||snippets.mozilla.com^
+||socorro.services.mozilla.com^
+||socorro-collector.services.mozilla.com^
+||socorro-mware-stage-zlb.webapp.phx1.mozilla.com^
+||socorro-mware-zlb.webapp.phx1.mozilla.com^
+||socorro-webapp.services.mozilla.com^
+||socorro-webapp-allizom.stage.mozaws.net^
+||spocs.getpocket.com^
+||telemetry.mozilla.org^
+||telemetry-coverage.mozilla.org^
+||telemetry-coverage.r53-2.services.mozilla.com^
+||telemetry-data.r53-2.services.mozilla.com^
+||telemetry-incoming.r53-2.services.mozilla.com^
+||topsites.services.mozilla.com^
+||tracking.firefox.com.cn^
+||tracking.services.mozilla.com^
+||tracking-protection-issues.herokuapp.com^
+!
+!!!!!! Mozilla Product and Services Direct Urls !!!!!!
+||firefox.com^
+||getpocket.com^
+||mozaws.net^
+||mozgcp.net^
+||mozilla.ai^
+||mozilla.com^
+||mozilla.net^
+||mozilla.org^
+||mozorg.moz.works^
+||thunderbird.net^
+||anonymco.com^
+||fakespot.com^
+!
