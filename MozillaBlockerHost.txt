@@ -5,12 +5,12 @@
 # Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 # Many of the urls are repeatative and speculative/may not exists and may not be used by mozilla/firefox, to not miss any mozilla url due to the restrictive nature of host files versus adblock style syntax.
 #
-# Homepage: https://github.com/gitfilts/pbfilters
-# Source: https://raw.githubusercontent.com/gitfilts/pbfilters/refs/heads/main/MozillaBlockerHost.txt
+# Homepage: https://github.com/gitfilts/Mozilla-Blocker
+# Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerHost.txt
 # Last modified: 07 Oct 2024
 # Number of entries: 212
 #
-# There is a much more extensive Adguard/Adgaurd Home version of Mozilla Blocker for systemdie adblocking and dns blocking - https://github.com/gitfilts/pbfilters/blob/main/MozillaBlcokerAdguard.txt 
+# Adguard/Adgaurd Home version Of Mozilla Blocker for systemwide ads and dns blocking - https://github.com/gitfilts/Mozilla-Blocker/blob/main/MozillaBlockerForAdguard.txt
 #
 #
 ### Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
