@@ -13,10 +13,10 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerForAdguard.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 07 October 2024
-! Version: 7.2
+! Last modified: 08 October 2024
+! Version: 7.3
 ! Syntax: AdGuard
-! Number of entries: 77
+! Number of entries: 78
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -60,6 +60,7 @@
 ||crash-stats.mozilla.org^$important
 ||data.mozilla.com^$important
 ||dataops.mozgcp.net^$important
+||detectportal.firefox.com^$important
 ||download-stats.mozilla.org^$important
 ||firefox-android-home-recommendations.getpocket.com^$important
 ||fls.merino.services.mozilla.com^$important
