@@ -14,7 +14,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 07 October 2024
-! Version: 7.1
+! Version: 7.2
 ! Syntax: AdGuard
 ! Number of entries: 77
 !
@@ -34,7 +34,6 @@
 !!! Mozilla Downloads servers/cdn
 @@||cdn.mozilla.net^
 @@||archive.mozilla.org^
-!Blocked!@@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
 !Blocked!@@||live.thunderbird.net^
