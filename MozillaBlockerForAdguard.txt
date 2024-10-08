@@ -14,16 +14,16 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 08 October 2024
-! Version: 7.4
+! Version: 7.5
 ! Syntax: AdGuard
-! Number of entries: 78
+! Number of entries: 83
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
 !
 !!! Mozilla Accounts
-||accounts.firefox.com^
-||accounts-static.cdn.mozilla.net^
+||accounts.firefox.com^$important
+||accounts-static.cdn.mozilla.net^$important
 !
 !!! Mozilla Addons
 @@||addons.mozilla.org^
@@ -36,11 +36,11 @@
 @@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
-!Blocked!@@||live.thunderbird.net^
-!Blocked!@@||autoconfig.thunderbird.net^
+||live.thunderbird.net^
+||autoconfig.thunderbird.net^
 !
 !!! Mozilla Support and blogs
-!Blocked!@@||support.mozilla.org^
+||support.mozilla.org^
 !
 !!! Third party dns used in other apps
 !Not-Blocked!@@||mozilla.cloudflare-dns.com^
