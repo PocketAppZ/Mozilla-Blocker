@@ -100,6 +100,7 @@
 ||telemetry-coverage.r53-2.services.mozilla.com^$important
 ||telemetry-data.r53-2.services.mozilla.com^$important
 ||telemetry-incoming.r53-2.services.mozilla.com^$important
+||thunderbird-settings.thunderbird.net^$important
 ||topsites.services.mozilla.com^$important
 ||tracking.firefox.com.cn^$important
 ||tracking.services.mozilla.com^$important
