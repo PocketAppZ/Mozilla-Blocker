@@ -14,7 +14,7 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 08 October 2024
-! Version: 7.3
+! Version: 7.4
 ! Syntax: AdGuard
 ! Number of entries: 78
 !
