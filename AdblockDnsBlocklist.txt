@@ -14,9 +14,9 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 08 October 2024
-! Version: 0.1
+! Version: 0.11
 ! Syntax: Adblock
-! Number of entries: 78
+! Number of entries: 81
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -36,11 +36,11 @@
 @@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
-!Blocked!@@||live.thunderbird.net^
-!Blocked!@@||autoconfig.thunderbird.net^
+||live.thunderbird.net^
+||autoconfig.thunderbird.net^
 !
 !!! Mozilla Support and blogs
-!Blocked!@@||support.mozilla.org^
+||support.mozilla.org^
 !
 !!! Third party dns used in other apps
 !Not-Blocked!@@||mozilla.cloudflare-dns.com^
@@ -100,6 +100,7 @@
 ||telemetry-coverage.r53-2.services.mozilla.com^
 ||telemetry-data.r53-2.services.mozilla.com^
 ||telemetry-incoming.r53-2.services.mozilla.com^
+||thunderbird-settings.thunderbird.net^  
 ||topsites.services.mozilla.com^
 ||tracking.firefox.com.cn^
 ||tracking.services.mozilla.com^
