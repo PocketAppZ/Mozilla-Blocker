@@ -1,6 +1,6 @@
 ! Title: Mozilla Blocker for Adguard/Adguard Home
 ! Description: This blocklist aims to block all traffic to "Mozilla: Not a Browser/Tech Company - A Political, AI, Data Collection and Advertisement Organization".
-!              Mozilla accounts are blocked but mozilla download cdn is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
+!              Mozilla accounts are blocked but mozilla archive is not blocked so that anyone can install firefox with a package manager like winget, chocolatey etc.
 !              Mozilla forked projects are highly reccomended instead of any official Mozilla apps, They are better anyway.
 !              Only extension urls are not blocked so that People can use better forked mozilla apps which prevent mozilla from violating your security and privacy.
 !              Use only in a systemwide Adblocker like Adguard which is available for Android, iOS, Windows, and Mac.
@@ -13,8 +13,8 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerForAdguard.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 08 October 2024
-! Version: 7.5
+! Last modified: 09 October 2024
+! Version: 7.6
 ! Syntax: AdGuard
 ! Number of entries: 83
 !
@@ -32,7 +32,7 @@
 ||services.addons.thunderbird.net^$important
 !
 !!! Mozilla Downloads servers/cdn
-@@||cdn.mozilla.net^
+||cdn.mozilla.net^
 @@||archive.mozilla.org^
 !
 !!! Betterbird/Thunderbird urls which may/may not be needed to be allowed conditionally
@@ -63,6 +63,7 @@
 ||detectportal.firefox.com^$important
 ||download-stats.mozilla.org^$important
 ||firefox-android-home-recommendations.getpocket.com^$important
+||firefox-settings-attachments.cdn.mozilla.net^$important
 ||fls.merino.services.mozilla.com^$important
 ||incoming.telemetry.mozilla.org^$important
 ||live.mozillamessaging.com^$important
