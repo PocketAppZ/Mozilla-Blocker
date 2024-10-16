@@ -13,10 +13,10 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/AdblockDnsBlocklist.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 08 October 2024
-! Version: 0.11
+! Last modified: 16 October 2024
+! Version: 0.12
 ! Syntax: Adblock
-! Number of entries: 81
+! Number of entries: 82
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -48,6 +48,7 @@
 !!!!!! Definite Rules to block known Mozilla tracking attempts with "" tag for Adguard
 ||anonymco.com^
 ||aus5.mozilla.org^
+||aus*.mozilla.org^
 ||contile.services.mozilla.com^
 ||contile-images.services.mozilla.com^
 ||classify-client.services.mozilla.com^
