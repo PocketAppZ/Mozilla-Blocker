@@ -14,9 +14,9 @@
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
 ! Last modified: 16 October 2024
-! Version: 0.12
+! Version: 0.13
 ! Syntax: Adblock
-! Number of entries: 82
+! Number of entries: 89
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -28,8 +28,8 @@
 !!! Mozilla Addons
 @@||addons.mozilla.org^
 @@||addons.thunderbird.net^
-||services.addons.mozilla.org^
-||services.addons.thunderbird.net^
+||services.addons.mozilla.org^$important
+||services.addons.thunderbird.net^$important
 !
 !!! Mozilla Downloads servers/cdn
 @@||cdn.mozilla.net^
@@ -120,4 +120,14 @@
 ||thunderbird.net^
 ||anonymco.com^
 ||fakespot.com^
+!
+!!!!!! Tracker and auto update blocking from other firefox forked browsers
+!! Basilisk Browser
+||aus.basilisk-browser.org^$important
+!
+!! Floorp Browser
+||floorp-update.ablaze.one^$important
+!
+!! Zen Browser
+||updates.zen-browser.app^$important
 !
