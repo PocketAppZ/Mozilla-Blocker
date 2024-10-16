@@ -13,10 +13,10 @@
 ! Source: https://raw.githubusercontent.com/gitfilts/Mozilla-Blocker/refs/heads/main/MozillaBlockerForAdguard.txt
 ! License: https://github.com/gitfilts/Mozilla-Blocker/blob/main/LICENSE
 ! Expires: 1 day
-! Last modified: 09 October 2024
-! Version: 7.6
+! Last modified: 16 October 2024
+! Version: 7.61
 ! Syntax: AdGuard
-! Number of entries: 83
+! Number of entries: 86
 !
 !
 !!!!!! Potential Urls to Allow for Extensions, Extenstion Updates & Account to work
@@ -120,4 +120,14 @@
 ||*thunderbird.net*^
 ||*anonymco.com*^
 ||*fakespot.com*^
+!
+!!!!!! Tracker and auto update blocking from other firefox forked browsers
+!! Basilisk Browser
+||aus.basilisk-browser.org^$important
+!
+!! Floorp Browser
+||floorp-update.ablaze.one^$important
+!
+!! Zen Browser
+||updates.zen-browser.app^$important
 !
